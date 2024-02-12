@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  text-transform: uppercase;
+  min-height: 100vh;
+  font-family: "Red Hat Text", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 142px 24px 48px;
+  background: url(/images/bg-stars.svg),
+    linear-gradient(180deg, #1d1e28 0.12%, #261c2d 94.84%, #261a2d 100%);
+  background-repeat: no-repeat, no-repeat;
+}
+
+h1 {
+  width: 327px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 6.136363506317139px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.countdown-cards {
+  margin-top: 54px;
+  display: flex;
+  gap: 16px;
+}
+
+.card-content {
+  background-color: #343650;
+  position: relative;
+  padding: 14px 11px;
+}
+.overlay {
+  position: absolute;
+  background-color: #000000;
+  width: 70px;
+  height: 33px;
+  top: 33px;
+  border-radius: 0px, 0px, 4px, 4px;
+  opacity: 0.15%;
+}
+.divider {
+  position: absolute;
+  background: #000000;
+  width: 70px;
+  height: 0.47px;
+  top: 32.76px;
+  opacity: 0.25px;
+}
+.inner-text {
+  color: #fb5e84;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -1.0800000429153442px;
+  text-align: center;
+}
