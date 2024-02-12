@@ -10,10 +10,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 142px 24px 48px;
+  justify-content: space-between;
+  /* padding: 142px 24px 48px; */
   background: url(/images/bg-stars.svg),
     linear-gradient(180deg, #1d1e28 0.12%, #261c2d 94.84%, #261a2d 100%);
   background-repeat: no-repeat, no-repeat;
+}
+
+header {
+  margin-top: 142px;
 }
 
 h1 {
@@ -31,33 +36,82 @@ h1 {
   gap: 16px;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+}
+
 .card-content {
   background-color: #343650;
   position: relative;
   padding: 14px 11px;
+  border-radius: 8px;
+  box-shadow: 0 4px 0px #191a23;
+  overflow: hidden;
 }
 .overlay {
-  position: absolute;
-  background-color: #000000;
+  background: #000000;
+  opacity: 0.15;
+  border-radius: 8px 8px 0px 0px;
   width: 70px;
   height: 33px;
-  top: 33px;
-  border-radius: 0px, 0px, 4px, 4px;
-  opacity: 0.15%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
 .divider {
   position: absolute;
   background: #000000;
-  width: 70px;
+  width: 100%;
   height: 0.47px;
   top: 32.76px;
-  opacity: 0.25px;
+  left: 0;
+  opacity: 0.25;
 }
+
+.oval {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #191a23;
+  z-index: 1;
+}
+
+.oval-left {
+  top: 47%;
+  left: -3px;
+}
+
+.oval-right {
+  top: 47%;
+  right: -3px;
+}
+
 .inner-text {
   color: #fb5e84;
   font-size: 36px;
   font-weight: 700;
-  line-height: 71px;
+  /* line-height: 71px; */
   letter-spacing: -1.0800000429153442px;
   text-align: center;
+}
+
+.counter-title {
+  font-size: 7px;
+  font-weight: 700;
+  line-height: 9px;
+  letter-spacing: 2.9593749046325684px;
+  text-align: center;
+  color: #8385a9;
+}
+
+footer {
+  display: flex;
+  gap: 32px;
+  background-image: url(./images/pattern-hills.svg);
+  margin-bottom: 48px;
 }
