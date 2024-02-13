@@ -5,7 +5,7 @@ This dynamic web application displays a countdown to a specific launch date set 
 
 ### Screenshot
 
-(./design/desktop-preview.jpg)
+./design/desktop-preview.jpg
 
 ### Links
 
