@@ -9,7 +9,7 @@ This dynamic web application displays a countdown to a specific launch date set 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://mariam-mantidze.github.io/Launch-countdown-timer/)
+- Live Site URL: [Live link](https://mariam-mantidze.github.io/Launch-countdown-timer/)
 
 ## Features
 
