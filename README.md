@@ -5,11 +5,11 @@ This dynamic web application displays a countdown to a specific launch date set 
 
 ### Screenshot
 
-./design/desktop-preview.jpg
+![](./design/desktop-design.jpg)
 
 ### Links
 
-- Live Site URL: (https://mariam-mantidze.github.io/Launch-countdown-timer/)
+- Live Site URL: [Add live site URL here](https://mariam-mantidze.github.io/Launch-countdown-timer/)
 
 ## Features
 
